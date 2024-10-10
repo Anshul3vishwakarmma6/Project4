@@ -15,5 +15,10 @@ This is the Anime Website.
 
 
 
+![2024-10-10 22_19_20-Greenshot](https://github.com/user-attachments/assets/8f8b5667-8663-478c-ae1c-823a6c7d1369)
+
+
+
+
 
 
