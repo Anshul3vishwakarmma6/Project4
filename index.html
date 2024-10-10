@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .book {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+        }
+        .book:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        .book img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #007BFF;
+            transition: transform 0.3s;
+        }
+        .book:hover img {
+            transform: scale(1.05);
+        }
+        .book-info {
+            padding: 15px;
+        }
+        .title {
+            font-size: 1.5em;
+            color: #007BFF;
+            margin: 0 0 10px;
+            transition: color 0.3s;
+        }
+        .title:hover {
+            color: #0056b3;
+        }
+        .genre {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666;
+            line-height: 1.5;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>The 50 Best Fantasy Manhwa You Must Read Now</h1>
+    <div class="container">
+
+    
+
+        <div class="book">
+            <img src="https://i.pinimg.com/550x/33/c4/1e/33c41eced43d1a587e9104fe0115d577.jpg" alt="The Beginning After the End">
+            <div class="book-info">
+                <div class="title">The Beginning After the End</div>
+                <div class="genre">Fantasy, Adventure</div>
+                <p>A former king is reincarnated into a world of magic and monsters.</p>
+            </div>
+        </div>
+
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/81FjFGj7hVL._AC_UF1000,1000_QL80_.jpg" alt="A Returner's Magic Should Be Special">
+            <div class="book-info">
+                <div class="title">A Returner's Magic Should Be Special</div>
+                <div class="genre">Fantasy, Action</div>
+                <p>A powerful magician returns to the past to prevent the destruction of his world.</p>
+            </div>
+        </div>
+
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/M/MV5BZTM5MmMwMWEtOTJmNS00MmZmLWI2MTktOWU0YmU0ZGIyY2JiXkEyXkFqcGc@._V1_.jpg" alt="God of High School">
+            <div class="book-info">
+                <div class="title">God of High School</div>
+                <div class="genre">Action, Fantasy</div>
+                <p>A tournament among high school students to determine the strongest fighter.</p>
+            </div>
+        </div>
+
+        <div class="book">
+            <img src="https://www.dvdplanetstore.pk/wp-content/uploads/2018/04/ac9gah8tZWfVMOtTDc45Xc6GOd.jpg" alt="Tales of Demons and Gods">
+            <div class="book-info">
+                <div class="title">Tales of Demons and Gods</div>
+                <div class="genre">Fantasy, Action, Adventure</div>
+                <p>A young man is reborn in the past with knowledge of the future."</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
