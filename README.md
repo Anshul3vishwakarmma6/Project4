@@ -1,4 +1,4 @@
 # Anime Website
 
-Hello ! Anshul here !   
-This is the Website.
+Hi There !   
+This is the Anime Website.
